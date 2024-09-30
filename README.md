@@ -19,8 +19,11 @@ Datetime: Library for manipulating dates and times.
 Project Structure
 Weather Data Analysis Project/
 ├── README.md          # This file
+
 ├── climate_starter.ipynb  # Jupyter Notebook containing the analysis
+
 ├── resources/         
+
 │   └── hawaii.sqlite   # SQLite database file containing weather data
 
 Database Schema
