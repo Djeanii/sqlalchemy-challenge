@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaii Climate API</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Hawaii Climate API!</h1>
+        <p>This API provides weather information such as precipitation, temperature observations, and statistics for different weather stations in Hawaii.</p>
+        
+        <h2>Available Routes</h2>
+        <ul>
+            <li><a href="/api/v1.0/precipitation">Precipitation Data</a></li>
+            <li><a href="/api/v1.0/stations">List of Weather Stations</a></li>
+            <li><a href="/api/v1.0/tobs">Temperature Observations (Last 12 Months)</a></li>
+            <li><a href="/api/v1.0/<start>">Temperature Stats From Start Date</a></li>
+            <li><a href="/api/v1.0/<start>/<end>">Temperature Stats From Date Range</a></li>
+        </ul>
+    </div>
+</body>
+</html>
