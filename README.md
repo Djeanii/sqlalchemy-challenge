@@ -25,12 +25,17 @@ Project Structure
 
 Weather Data Analysis Project/
 ├── README.md                # This file
+
 ├── climate_starter.ipynb     # Jupyter Notebook containing the analysis
+
 ├── app.py                   # Flask application for Part 2
+
 ├── resources/               # Folder containing data
 │   └── hawaii.sqlite        # SQLite database file containing weather data
+
 ├── templates/               # Folder containing HTML templates for the web interface
 │   └── index.html           # HTML file for the main page of the Flask app
+
 ├── static/                  # Folder containing static files (CSS, JS)
 │   └── css/
 │       └── style.css        # Custom CSS file for styling the HTML page
