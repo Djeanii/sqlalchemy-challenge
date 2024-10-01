@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hawaii Climate API</title>
-    <!-- Link to the CSS file -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
@@ -17,9 +16,13 @@
             <li><a href="/api/v1.0/precipitation">Precipitation Data</a></li>
             <li><a href="/api/v1.0/stations">List of Weather Stations</a></li>
             <li><a href="/api/v1.0/tobs">Temperature Observations (Last 12 Months)</a></li>
-            <li><a href="/api/v1.0/<start>">Temperature Stats From Start Date</a></li>
-            <li><a href="/api/v1.0/<start>/<end>">Temperature Stats From Date Range</a></li>
+            <li><a href="/api/v1.0/2017-01-01">Temperature Stats From Start Date (e.g., 2017-01-01)</a></li>
+            <li><a href="/api/v1.0/2017-01-01/2017-12-31">Temperature Stats From Date Range</a></li>
         </ul>
     </div>
+
+    <footer>
+        <p>&copy; 2024 Hawaii Climate API</p>
+    </footer>
 </body>
 </html>
